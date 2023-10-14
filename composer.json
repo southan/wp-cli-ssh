@@ -1,0 +1,25 @@
+{
+	"name": "southan/wp-cli-ssh",
+	"type": "wp-cli-package",
+	"description": "Use WP CLI aliases to open an SSH connection",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alex Southan"
+		}
+	],
+	"autoload": {
+		"files": [
+			"wp-cli-ssh.php"
+		]
+	},
+	"require": {
+		"southan/wp-cli-utils": "dev-main"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/southan/wp-cli-utils"
+		}
+	]
+}
